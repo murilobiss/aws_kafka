@@ -1,0 +1,11 @@
+.venv/
+logs/
+*.cfg
+*.db
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+airflow-webserver.pid
+bin/
+webserver_config.py
