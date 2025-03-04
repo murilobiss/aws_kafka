@@ -1,12 +1,22 @@
-.gitignore
-.venv/
-logs/
-*.cfg
-*.db
-__pycache__/
-*.pyc
-.DS_Store
-.idea/
-airflow-webserver.pid
-bin/
-webserver_config.py
+# Ambiente virtual  
+.venv/  
+bin/  
+
+# Logs  
+logs/  
+airflow-webserver.pid  
+
+# Arquivos de configuração e banco de dados  
+*.cfg  
+*.db  
+webserver_config.py  
+
+# Arquivos Python temporários  
+__pycache__/  
+*.pyc  
+
+# Arquivos do sistema  
+.DS_Store  
+
+# Configurações de IDE  
+.idea/ 
